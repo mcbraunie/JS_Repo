@@ -13,7 +13,10 @@ const puppeteer = require('puppeteer');
 // function call for puppeteer
 async function launchSearch(){
     // website that generates random words where the words will come from
-    const url = 'https://www.sodacoffee.com/words/list-generator';
+    // Old site: link no longer safe
+    // const url = 'https://www.sodacoffee.com/words/list-generator';
+    // New site: need to update div/id's
+    const url = 'https://randomwordgenerator.com/';
     // button div id to click and generate more word searches
     const buttonClick = '#ctl00_ContentPane_btn';
     // div id for the drop-down selector on the url asking how many results we want
